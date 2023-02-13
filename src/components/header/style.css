@@ -1,0 +1,39 @@
+@import url(/src/index.css);
+
+
+.header{
+    margin: 0 auto;
+    padding: 0 5%;
+    box-shadow: 0 2px 5px hsl(0, 0%, 90%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title{
+    font-size: 0.9rem;
+    font-weight: 800;
+    padding: 2em 0;
+}
+
+.header__btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5em;
+    border: none;
+    background-color: transparent;
+    font-family: var(--body-ff);
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--dark-blue-txt);
+    cursor: pointer;
+}
+
+.header__btn__text{
+    white-space: nowrap;
+}
+
+.header__btn__icon{
+    width: 10px;
+}

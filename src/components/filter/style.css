@@ -1,0 +1,29 @@
+@import url(/src/index.css);
+
+
+.filter{
+    font-family: var(--body-ff);
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--dark-blue-txt);
+    background-image: url(/src/images/chevron-down-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 8px;
+    background-position: right 1.5em center;
+    appearance: none;
+    width: 200px;
+    margin: 0 5%;
+    padding: 1em 0 1em 1.5em;
+    box-shadow: 0 0 10px hsl(0, 0%, 90%);
+}
+
+.filter:focus{
+    outline: none;
+}
+
+.filter__option{
+    color: var(--dark-blue-txt);
+    font-weight: 600;
+}
