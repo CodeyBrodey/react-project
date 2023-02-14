@@ -4,7 +4,8 @@
     display: flex;
     margin: 1.5em 5% 2em 5%;
     max-width: 350px;
-    box-shadow: 0 0 10px hsl(0, 0%, 90%);
+    min-height: 50px;
+    box-shadow: var(--box-shadow);
     border-radius: 5px;
 }
 

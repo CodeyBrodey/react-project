@@ -2,28 +2,56 @@
 
 
 .filter{
-    font-family: var(--body-ff);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 200px;
+    min-height: 50px;
+    margin: 1em 0 1em 5%;
+    padding: 0 2em 0 1.5rem;
+
+    box-shadow: var(--box-shadow);
+    background-color: transparent;
     border: none;
     border-radius: 5px;
+
+    font-family: var(--body-ff);
     font-size: 0.8rem;
     font-weight: 600;
-    color: var(--dark-blue-txt);
-    background-image: url(/src/images/chevron-down-solid.svg);
-    background-repeat: no-repeat;
-    background-size: 8px;
-    background-position: right 1.5em center;
-    appearance: none;
+}
+
+.filter__icon{
+    max-width: 8px;
+}
+
+.filter__options{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+
     width: 200px;
-    margin: 0 5%;
-    padding: 1em 0 1em 1.5em;
-    box-shadow: 0 0 10px hsl(0, 0%, 90%);
+    top: 55px;
+    left: 0;
+    padding: 1em 0;
 }
 
-.filter:focus{
-    outline: none;
-}
+.filter__options__btns{
+    background-color: transparent;
+    border: none;
 
-.filter__option{
-    color: var(--dark-blue-txt);
+    padding: 0.35em 0 0.35em 1.5rem;
+
+    text-align: left;
+    font-family: var(--body-ff);
     font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.filter__options--open{
+    display: flex;
 }
