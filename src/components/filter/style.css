@@ -52,6 +52,10 @@
     font-size: 0.8rem;
 }
 
+.filter__options__btns:hover{
+    background-color: hsl(0, 0%, 90%);
+}
+
 .filter__options--open{
     display: flex;
 }
