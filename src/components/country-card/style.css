@@ -1,0 +1,10 @@
+@import url(/src/index.css);
+
+.card{
+    max-width: 250px;
+    margin: 1em auto;
+}
+
+.card__img{
+    max-width: 100%;
+}
