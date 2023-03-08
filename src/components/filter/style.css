@@ -58,4 +58,5 @@
 
 .filter__options--open{
     display: flex;
+    background-color: var(--white);
 }
