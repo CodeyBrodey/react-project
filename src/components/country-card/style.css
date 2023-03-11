@@ -8,6 +8,36 @@
     border-radius: 5px;
 }
 
+.card--open{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0 5%;
+
+    background-color: var(--white);
+}
+
+.card--open__button{
+    margin: 9em 0 5em 0;
+    padding: 0.5em 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+    background-color: var(--white);
+    border: none;
+    box-shadow: var(--box-shadow);
+    font-family: var(--ff-accent);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.card--open__button__icon{
+    min-width: 15px;
+}
+
 .card__img{
     max-width: 100%;
 
